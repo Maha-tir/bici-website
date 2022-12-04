@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../assets/css/app.min.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="../vendor/fontawesome-6/css/all.min.css" />
+
+    <script src="../assets/js/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <header class="header-nav" data-element="fixed">
+      <div class="header-nav-content">
+        <div class="header-nav-col">
+          <button class="circle-btn icon-btn" id="collapse-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+        </div>
+        <div class="header-nav-col">
+          <div class="dropdown">
+            <button
+              class="circle-btn icon-btn dropdown-toggle no-arrow"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              <ion-icon name="notifications"></ion-icon>
+            </button>
+            <ul class="dropdown-menu dropdown-notifications">
+              <li class="dropdown-v-list">
+                <a class="dropdown-v-notification" href="#">
+                  <div
+                    class="dropdown-v-notification-icon dr-v-primary"
+                    data-type="primary"
+                  >
+                    <i class="fa-solid fa-badge-check"></i>
+                  </div>
+                  <div class="dropdown-v-notification-details">
+                    <h1 class="dropdown-v-notification-title">
+                      Notification title
+                    </h1>
+                    <p class="dropdown-v-notification-desc">
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                      Temporibus, distinctio harum blanditiis ad impedit
+                      deleniti.
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li class="dropdown-v-list">
+                <a class="dropdown-v-notification" href="#">
+                  <div
+                    class="dropdown-v-notification-icon dr-v-warning"
+                    data-type="warning"
+                  >
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                  </div>
+                  <div class="dropdown-v-notification-details">
+                    <h1 class="dropdown-v-notification-title">
+                      Akun anda belum aktivasi
+                    </h1>
+                    <p class="dropdown-v-notification-desc">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Magni, corrupti!
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <div class="dropdown-notification-footer">
+                <a
+                  href="notifications.html"
+                  class="dropdown-v-notification-footer"
+                >
+                  Lihat semua
+                </a>
+              </div>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button
+              class="circle-btn btn-avatar dropdown-toggle no-arrow"
+              type="button"
+              data-bs-toggle="dropdown"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                alt="_profile-img"
+              />
+            </button>
+            <ul class="dropdown-menu dropdown-menu-profile">
+              <div class="dropdown-header-profile">
+                <div class="dropdown-header-profile-img">
+                  <img
+                    src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+                    alt="_profile-img"
+                  />
+                </div>
+                <div class="dropdown-header-profile-details">
+                  <h1 class="dropdown-header-profile-v-ms">Administrator</h1>
+                  <p class="dropdown-header-profile-v-sm">admin@gmail.com</p>
+                </div>
+              </div>
+              <div class="dropdown-body-profile">
+                <li class="dropdown-v-list">
+                  <a class="dropdown-v-link" href="profile.html">
+                    <div class="dropdown-v-link-icon">
+                      <i class="fa-solid fa-user"></i>
+                    </div>
+                    <span class="dropdown-v-link-display">Profile</span>
+                  </a>
+                </li>
+                <li class="dropdown-v-list">
+                  <a class="dropdown-v-link" href="setting.html">
+                    <div class="dropdown-v-link-icon">
+                      <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <span class="dropdown-v-link-display">Pengaturan</span>
+                  </a>
+                </li>
+                <li class="dropdown-v-list">
+                  <a class="dropdown-v-link" href="faq.html">
+                    <div class="dropdown-v-link-icon">
+                      <i class="fa-solid fa-circle-question"></i>
+                    </div>
+                    <span class="dropdown-v-link-display">FAQ</span>
+                  </a>
+                </li>
+                <li class="dropdown-v-list">
+                  <a class="dropdown-v-link dropdown-v-link-out" href="#">
+                    <div class="dropdown-v-link-icon">
+                      <i class="fa-solid fa-power-off"></i>
+                    </div>
+                    <span class="dropdown-v-link-display">Keluar</span>
+                  </a>
+                </li>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <nav class="sidebar-nav">
+      <div class="sidebar-nav-content">
+        <div class="sidebar-nav-header">
+          <a href="dashboard.html" class="sidebar-navTitle"
+            ><img
+              src="../assets/img/logo/logo-with-shadow.png"
+              alt="../assets/img/logo/logo-with-shadow.png"
+              class="sidebar-navTitle-img"
+            />
+            Bintang Cendekia</a
+          >
+        </div>
+        <a href="profile.html" class="sidebar-nav-header sidebar-navProfile">
+          <div class="sidebar-navImg-profile"></div>
+          <div class="sidebar-navDetails">
+            <h1 class="sd-nv-tl">Administrator</h1>
+            <p class="sd-nv-sbt">admin14@gmail.com</p>
+          </div>
+        </a>
+        <div class="sidebar-nav-menu">
+          <li class="sidebar-navDivider">Menu</li>
+          <a href="dashboard.html" class="flex-sidebar-nav-link">
+            <div class="sidebar-nav-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <span class="sidebar-nav-display">Beranda</span>
+          </a>
+          <a href="messages.html" class="flex-sidebar-nav-link">
+            <div class="sidebar-nav-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <span class="sidebar-nav-display">Pesan</span>
+          </a>
+          <a href="data-kelas.html" class="flex-sidebar-nav-link">
+            <div class="sidebar-nav-icon">
+              <i class="fa-solid fa-users"></i>
+            </div>
+            <span class="sidebar-nav-display">Data Kelas</span>
+          </a>
+          <a href="pendaftaran.html" class="flex-sidebar-nav-link is-active">
+            <div class="sidebar-nav-icon">
+              <i class="fa-solid fa-file-lines"></i>
+            </div>
+            <span class="sidebar-nav-display">Pendaftaran</span>
+          </a>
+          <li class="sidebar-navDivider">Akun</li>
+          <a href="profile.html" class="flex-sidebar-nav-link">
+            <div class="sidebar-nav-icon"><i class="fa-solid fa-user"></i></div>
+            <span class="sidebar-nav-display">Profile</span>
+          </a>
+          <a href="setting.html" class="flex-sidebar-nav-link">
+            <div class="sidebar-nav-icon"><i class="fa-solid fa-gear"></i></div>
+            <span class="sidebar-nav-display">Pengaturan</span>
+          </a>
+          <a href="#" class="flex-sidebar-nav-link">
+            <div class="sidebar-nav-icon">
+              <i class="fa-solid fa-power-off"></i>
+            </div>
+            <span class="sidebar-nav-display">Keluar</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="ex-v-content" id="main">
+      <div class="pendaftaran-content">
+        <div class="card--ghsct-table">
+          <div class="card--ghsct-header">
+            <div class="ghsct--col">
+              <button class="circle-btn refresh-btn">
+                <ion-icon name="refresh-outline"></ion-icon>
+              </button>
+              <button class="circle-btn">
+                <ion-icon name="ellipsis-vertical-outline"></ion-icon>
+              </button>
+            </div>
+            <div class="ghsct--col">
+              <div class="me-1">
+                <input
+                  type="search"
+                  class="form-control form-control-sm"
+                  id="search-bar"
+                  placeholder="Search..."
+                />
+              </div>
+              <button class="circle-btn">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+              </button>
+              <button class="circle-btn">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+              </button>
+            </div>
+          </div>
+          <div class="card--ghsct-body">
+            <li class="ghsct--list">
+              <a href="detail-pendaftaran.html" class="ghsct--link">
+                <div class="ghsct--img-avatar">
+                  <!-- <img src="" alt=""> -->
+                  <span>M</span>
+                </div>
+                <div class="ghsct--details">
+                  <h1 class="ghsct--v-nmt">Permintaan Pendaftaran</h1>
+                  <p class="ghsct--v-smt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    suscipit cumque ad debitis incidunt obcaecati?
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li class="ghsct--list">
+              <a href="detail-pendaftaran.html" class="ghsct--link">
+                <div class="ghsct--img-avatar">
+                  <!-- <img src="" alt=""> -->
+                  <span>M</span>
+                </div>
+                <div class="ghsct--details">
+                  <h1 class="ghsct--v-nmt">Permintaan Pendaftaran</h1>
+                  <p class="ghsct--v-smt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                    suscipit cumque ad debitis incidunt obcaecati?
+                  </p>
+                </div>
+              </a>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/admin.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

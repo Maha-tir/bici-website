@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/app.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./vendor/splide-js/splide.min.css" />
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <header class="fix-header" id="sticky-header">
+      <div class="header-logo">
+        <h1 class="logo-name">Bintang Cendekia</h1>
+      </div>
+      <nav class="header-nav" id="nav-desk">
+        <div class="header-nav-content">
+          <ul class="header-nav-menu" id="nav-menu">
+            <li class="app-nav-list">
+              <a href="#" class="app-nav-link active">Beranda</a>
+            </li>
+            <li class="app-nav-list">
+              <a href="#" class="app-nav-link">Tentang Kami</a>
+            </li>
+            <li class="app-nav-list">
+              <a href="#" class="app-nav-link">Pendaftaran</a>
+            </li>
+          </ul>
+          <div class="ul-btn">
+            <a href="login.html" class="root-btn root-btn-bici">Masuk</a>
+          </div>
+        </div>
+        <button class="circle-btn icon-btn toggle-nav-mobile">
+          <ion-icon name="menu-outline"></ion-icon>
+        </button>
+      </nav>
+    </header>
+    <nav class="side-nav-mobile">
+      <div class="side-nav-mobile-header">
+        <button class="circle-btn icon-btn toggle-nav-mobile">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+      </div>
+      <div class="side-nav-mobile-content" id="nav-mobile"></div>
+    </nav>
+    <div class="main">
+      <div class="app-section items-center home-section">
+        <div class="app-col-6">
+          <div class="app-inner-element">
+            <h1 class="app-home-title">Bici</h1>
+            <h1 class="app-home-subtitle alexandria">
+              Be Excellent To Be Star
+            </h1>
+            <p class="app-home-desc mb-0">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Expedita, quas ratione quia necessitatibus assumenda amet.
+            </p>
+            <div class="app-home-flex-btn">
+              <a href="login.html" class="app-btn mt-3 app-btn-bici">
+                Dapatkan Promo
+              </a>
+              <button
+                class="app-btn app-btn-link mt-3"
+                style="font-weight: 500"
+              >
+                <div class="app-on-btn-icon ion-icon">
+                  <ion-icon name="document-text"></ion-icon>
+                </div>
+                Informasi Pendaftaran
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="app-col-6">
+          <div
+            class="app-inner-element d-flex align-items-center justify-content-center"
+          >
+            <div class="app-home-img">
+              <img
+                src="./assets/img/logo/logo-with-shadow.png"
+                alt="logo-bici"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-section" style="display: inherit">
+        <div class="app-grid-box">
+          <div class="card-features">
+            <div class="features-icon">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="features-body">
+              <h1 class="features-title">Features Title</h1>
+              <p class="features-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                doloremque.
+              </p>
+            </div>
+          </div>
+          <div class="card-features">
+            <div class="features-icon">
+              <i class="fa-solid fa-house"></i>
+            </div>
+            <div class="features-body">
+              <h1 class="features-title">Features Title</h1>
+              <p class="features-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                doloremque.
+              </p>
+            </div>
+          </div>
+          <div class="card-features">
+            <div class="features-icon">
+              <i class="fa-solid fa-book"></i>
+            </div>
+            <div class="features-body">
+              <h1 class="features-title">Features Title</h1>
+              <p class="features-desc">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero,
+                doloremque.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-section items-center pt-0">
+        <div class="app-col-6">
+          <div
+            class="app-inner-element d-flex align-items-center justify-content-center"
+          >
+            <div class="app-inner-carousel">
+              <section
+                id="image-carousel"
+                class="splide"
+                aria-label="Beautiful Images"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <img
+                        src="http://placeimg.com/200/200/tech"
+                        alt="http://placeimg.com/200/200/tech"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="http://placeimg.com/200/200/arch"
+                        alt="http://placeimg.com/200/200/arch"
+                      />
+                    </li>
+                    <li class="splide__slide">
+                      <img
+                        src="http://placeimg.com/200/200/nature"
+                        alt="http://placeimg.com/200/200/nature"
+                      />
+                    </li>
+                  </ul>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="app-col-6">
+          <div class="app-inner-element">
+            <h1 class="app-about-title">Tentang Kami</h1>
+            <p class="app-about-desc mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              eaque placeat et! Dolores iusto reiciendis quia incidunt expedita
+              commodi magnam, modi qui illo fugiat blanditiis, aliquam, sapiente
+              at placeat consequuntur?
+            </p>
+            <div
+              class="d-flex align-items-center justify-content-between flex-wrap mt-2"
+            >
+              <a
+                href="tentang-kami.html"
+                class="text-link"
+                style="font-weight: 500"
+              >
+                Baca Selengkapnya
+                <div class="app-on-btn-icon ion-icon">
+                  <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+              </a>
+              <div class="d-flex align-items-center">
+                <a href="instagram.com" class="circle-btn btn-media-social">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+                <a href="instagram.com" class="circle-btn btn-media-social">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-section items-center pt-0">
+        <div class="app-col-6">
+          <div class="app-inner-element">
+            <h1 class="app-about-title">Download App</h1>
+            <p class="app-about-desc mb-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+              eaque placeat et! Dolores iusto reiciendis quia incidunt expedita
+              commodi magnam, modi qui illo fugiat blanditiis, aliquam, sapiente
+              at placeat consequuntur?
+            </p>
+            <div class="d-flex align-items-center flex-wrap mt-2">
+              <a
+                href="play-store.com"
+                class="text-link"
+                style="font-weight: 500"
+              >
+                Download via Play Store
+              </a>
+              <a
+                href="app-store.com"
+                class="text-link"
+                style="font-weight: 500"
+              >
+                Download via App Store
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="app-col-6">
+          <div
+            class="app-inner-element d-flex align-items-center justify-content-center"
+          >
+            <div class="app-inner-carousel"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./vendor/splide-js/splide.min.js"></script>
+    <script src="./assets/js/app.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        new Splide("#image-carousel").mount();
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

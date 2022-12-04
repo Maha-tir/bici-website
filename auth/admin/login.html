@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="../../assets/css/auth.css" />
+    <link rel="stylesheet" href="../../assets/css/app.min.css" />
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../vendor/fontawesome-6/css/all.min.css" />
+    <script src="../../assets/js/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <div class="e-v-auth-screen">
+      <div class="e-v--auth-col-ex-ms">
+        <div class="e-v--auth-box">
+          <div class="e-v--auth-header">
+            <div class="e-v--auth-brandTitle">
+              <img
+                src="../../assets/img/logo/logo-with-shadow.png"
+                alt="_brandTitle--bintangcendekia"
+              />
+            </div>
+            <p class="e-v--nmTitle-ls">Masuk ke akun kamu</p>
+            <p class="e-v--nmTitle-mls">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+          </div>
+          <div class="e-v--auth-body--content">
+            <form
+              method="post"
+              class="e-v--auth-formValidation--ex-validation"
+              autocomplete="off"
+            >
+              <div class="e-v--form-inputField">
+                <label
+                  for="email"
+                  id="e--label-extens"
+                  class="e-v--form-inputLabel"
+                >
+                  Alamat Email
+                </label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="e-v--form-inputControl"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+              <span class="e-v--form--errorText">
+                <div class="e-v--form-errorIcon">
+                  <ion-icon name="close-circle-outline"></ion-icon>
+                </div>
+                Email harus diisi
+              </span>
+              <div class="e-v--form-inputField">
+                <label
+                  for="password"
+                  id="e--label-extens"
+                  class="e-v--form-inputLabel"
+                >
+                  Password
+                </label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  class="e-v--form-inputControl"
+                  placeholder="Password"
+                />
+              </div>
+              <div
+                class="d-flex align-items-center justify-content-between my-2"
+              >
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="ingat-saya"
+                  />
+                  <label class="form-check-label" for="ingat-saya">
+                    Ingat saya
+                  </label>
+                </div>
+                <a href="forgot-password.html" class="e-v--form-link"
+                  >Lupa password?</a
+                >
+              </div>
+              <button type="submit" class="e-v--form-submitBtn">Masuk</button>
+            </form>
+            <p class="e-v--textDivider-center my-2">
+              Tidak punya akun?
+              <a href="registrasi.html" class="e-v--textDivider-link">
+                Buat akun
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="e-v--auth-col-ex-ls"></div>
+    </div>
+    <script src="../../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../../assets/js/app.min.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
